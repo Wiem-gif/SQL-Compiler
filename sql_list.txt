@@ -1,0 +1,20 @@
+select id, salary from dept, employee;
+select name, age  from;
+select distinct id, name from employee;
+select id, name from employee where age = 53;
+select id, name from employee where age < 25 and dept = 5;
+select id, name from employee where age > 20 and;
+select avg(age), dept from employee group by dept;
+select min(age) from employee group by dept having min(age) > 20;
+select avg(salary) from employee group by dept order by dept;
+delete from employee;
+delete from employee where id = ;
+insert into employee values (1, 'Ali', 30);
+insert into employee (id, name, age) values (2, 'Bob', 25);
+insert into employee (id, name, age) values (2, 'Bob');
+insert into employee (id, name) values (2, 'Bob', 25);
+update employee set salary = 60000, dept = 10;
+update employee set age = 31 where id = 1
+create table dept (id int, name);
+create table project (id int, name varchar, budget int);
+create table project (id , name varchar, budget int);
