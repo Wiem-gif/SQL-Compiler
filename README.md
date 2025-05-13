@@ -164,10 +164,3 @@ Les fichiers suivants sont générés à la compilation et ne doivent **pas êtr
 **Wiem Iben Youssef**
 Étudiante ingénieur en téléinformatique à l’ISITCOM
 
----
-
-```
-
----
-
-
