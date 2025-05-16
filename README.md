@@ -14,7 +14,6 @@ Il repose sur **Flex (Lex)** pour l’analyse lexicale, **Bison (Yacc)** pour l�
 - 🔢 Numérotation automatique des requêtes
 - 🟢 Affichage en vert pour les requêtes valides avec icône de validation
 - 🔴 Affichage en rouge pour les erreurs avec icône de croix
-- 📊 Statistiques en temps réel : nombre de requêtes valides, invalides, et total
 - 📄 Affichage du retour du compilateur en temps réel
 
 ---
