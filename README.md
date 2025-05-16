@@ -35,9 +35,9 @@ Il repose sur **Flex (Lex)** pour l’analyse lexicale, **Bison (Yacc)** pour l�
 ```
 
 .
-├── lex.l                 # Analyseur lexical SQL
-├── synt.y                # Analyseur syntaxique SQL
-├── application.py        # Interface graphique (Tkinter)
+├── sql.l                 # Analyseur lexical SQL
+├── sql.y                # Analyseur syntaxique SQL
+├── interface_sql.py        # Interface graphique (Tkinter)
 ├── compile.sh            # Script automatique de compilation
 ├── clear.sh              # Script de nettoyage
 └── README.md             # Ce fichier
@@ -92,7 +92,7 @@ gcc -o sql_parser lex.yy.c y.tab.c -lfl
 ### Interface graphique :
 
 ```bash
-python3 application.py
+python3 interface_sql.py
 ```
 
 ---
@@ -154,12 +154,12 @@ Les fichiers suivants sont générés à la compilation et ne doivent **pas êtr
 * `lex.yy.c`
 * `y.tab.c`
 * `y.tab.h`
-* `sql_parser` (exécutable)
+* `a.out` (exécutable)
 
 ---
 
 ## 👨‍💻 Contributrice
 
 **Wiem Iben Youssef**
-Étudiante ingénieur en téléinformatique à l’ISITCOM
+Étudiante ingénieur en Téléinformatique à l’ISITCOM
 
